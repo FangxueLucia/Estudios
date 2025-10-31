@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 29 de Octubre</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="enunciado">
+      <h3>
+        que tengan 1 etiqueta que represente un texto junto a la etiqueta
+        colocar una X cantidad de botones, cada botón debe contener y valer una
+        palabra, ustedes deben adicionar la palabra del botón que presionen al
+        texto actual de la etiqueta, la etiqueta puedeser: Humero, p, b, small,
+        strong o span. en resumen, concatenar la palabra del boton a la etiqueta
+        cada que se presione cualquier boton
+      </h3>
+    </div>
+    <div class="esconder">
+      <p id="palabra1">Mi</p>
+      <p id="palabra2">vieja</p>
+      <p id="palabra3">yegua</p>
+      <p id="palabra4">gris</p>
+    </div>
+    <div class="caja_resultado">
+      <p id="texto">Texto:</p>
+    </div>
+    <div class="caja_resultado">
+      <p id="longitud">Longitud:</p>
+    </div>
+    <div class="caja_botones">
+      <button id="boton1" class="boton">Mi</button>
+      <button id="boton2" class="boton">vieja</button>
+      <button id="boton3" class="boton">yegua</button>
+      <button id="boton4" class="boton">gris</button>
+    </div>
+    <div>
+        <input type="text" value="" id="valor1">
+        <input type="text" value="" id="valor2">
+    </div>
+    <div>
+        <button id="comparar">Comparar valores</button>
+        <p id="resultadoDelValor">El valor es: </p>
+    </div>
+    <div>
+        <input type="text" value="">
+        <input type="text" value="">
+    </div>
+    <div>
+        <button></button>
+    </div>
+    <div>
+        <p>Concatenación de los inputs</p>
+        <p>Comparación de los inputs</p>
+        <p>Longitud de la concatenación de los inputs</p>
+    </div>
+  </body>
+</html>

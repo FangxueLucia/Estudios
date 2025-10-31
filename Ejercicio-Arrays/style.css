@@ -1,0 +1,45 @@
+
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #D5BDAF;
+}
+.caja_grande{
+    background-color: #F5EBE0;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 15px;
+}
+.img{
+    max-width: 70px;
+    margin: 10px;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.589);
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+    
+}
+.caja2{
+    background-color: rgba(255, 255, 255, 0.589);
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+}
+.boton{
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 0px;
+    border-color: #D6CCC2;
+    background-color: #D6CCC2;
+    box-shadow: 0 2px 4px;
+    &:hover {
+    background-color: #D5BDAF;
+    border-color: #D5BDAF;
+    box-shadow: 0 4px 8px;
+    color: black;
+    }
+}

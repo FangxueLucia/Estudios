@@ -1,0 +1,42 @@
+body{
+    margin: 5px;
+    background-color: beige;
+}
+.enunciado{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 15px;
+    border: black;
+
+}
+.esconder{
+    display: none;
+}
+.caja_resultado{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 15px;
+}
+.caja_botones{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 15px;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    border: black;
+    
+}
